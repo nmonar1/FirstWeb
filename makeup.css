@@ -1,0 +1,8 @@
+body{
+    background-color: #ffc7ff;
+}
+.h_image{
+    width: 100%;
+    height : 33.33vh;
+    object-fit: cover;
+}
