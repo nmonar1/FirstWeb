@@ -1,0 +1,24 @@
+@charset "utf-8";
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+    background-color: #ffc7ff;
+    background-size: cover; 
+    background-position: center;
+}
+
+.payment-methods {
+    margin-top: 30px; /*  creating space between buttons  */
+}
+
+.payment-option {
+    font-size: 18px; /* Increasing font size */
+    padding: 20px 40px; /* Add padding to make buttons larger */
+    margin-bottom: 20px; /* Add margin between buttons */
+    background-color: #61063b; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer;
+}
+
