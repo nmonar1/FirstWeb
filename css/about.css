@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccc; 
+    color: #333; 
+}
+
+h1 {
+    color: #B7205D; 
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+p {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
