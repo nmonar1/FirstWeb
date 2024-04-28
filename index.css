@@ -1,8 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: #ffc7ff;
 }
@@ -23,28 +23,27 @@ body{
     text-decoration: none;
 }
 
+.image-row {
+    text-align: center;
+}
 
-.image {
-    height: 300px; 
-    width: 400px;
+.image1 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
     margin: 20px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    
 }
 
-
-#image1 {
-    background-image: url('images/Curly_Hair_Goals.jpeg'); 
-    display: flex;
-    justify-content: center;
+.image2 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+    margin: 20px;
 }
 
-#image2 {
-    background-image: url('images/shades.jpeg'); 
-}
-
-#image3 {
-    background-image: url('images/Clean_Girl_Aesthetic.jpeg'); 
+.image3 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+    margin: 20px;
 }
