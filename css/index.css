@@ -24,26 +24,35 @@ body{
 }
 
 .image-row {
-    text-align: center;
+    display: flex; /*Using flexbox to create a row*/
+    justify-content: center;  /* Placing the images in the center*/
 }
+
+.image-container {
+    text-align: center;
+    margin: 20px;
+}
+
 
 .image1 {
     width: 350px; 
     height: 350px; 
     object-fit: cover; 
-    margin: 20px;
 }
 
 .image2 {
     width: 350px; 
     height: 350px; 
     object-fit: cover; 
-    margin: 20px;
 }
 
 .image3 {
     width: 350px; 
     height: 350px; 
     object-fit: cover; 
-    margin: 20px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 18px;
 }
