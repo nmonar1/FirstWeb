@@ -56,3 +56,50 @@ body{
     margin-top: 10px;
     font-size: 18px;
 }
+.container {
+    display: flex;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+   
+
+}
+
+.image4{
+    max-width: 250px;
+    height: auto;
+    
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    
+}
+button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#61063b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+/*.image-container {
+    text-align: left;
+    margin: 20px;
+   
+}
+.sidebar{
+    text-align: right;
+    line-height: 25px;
+}
+.image4{
+    width: 400px;
+    height: auto;
+}*/
