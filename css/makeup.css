@@ -1,13 +1,10 @@
 body{
     background-color: #ffc7ff;
 }
-header{
-    background-color: #61063B;
-   font: 1em pacifico;
-}
 
-/*.h_image{
+
+.h_image{
     width: 100%;
-    height : 20.33vh;
+    height : 33.33vh;
     object-fit: cover;
-}*/
+}

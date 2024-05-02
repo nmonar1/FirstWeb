@@ -21,13 +21,48 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.image-row {
+    display: flex; /*Using flexbox to create a row*/
+    justify-content: center;  /* Placing the images in the center*/
+}
+
 .image-container {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center;
-    margin-top: 20px; 
+    text-align: center;
+    margin: 20px;
 }
-.image {
-    height: auto; 
-    width: auto; 
+
+
+.image1 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
 }
+
+.image2 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+}
+
+.image3 {
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 18px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#61063b;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    
+}
+
+
