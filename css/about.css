@@ -29,15 +29,20 @@ h1 {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space between columns */
 }
-
-.column {
-    width: 48%; /* Width of each column (adjust as needed) */
-    padding: 10px;
-    border: 1px solid #0c266d; /* Border for clarity */
-    box-sizing: border-box; /* Include padding in width calculation */
+.image1{
+    width:80%;
+    height: auto;
 }
 
-/* Optional: Add styles for titles */
+.column {
+    width: 48%; 
+    padding: 10px;
+    /*border: 2px solid #0c266d;*/
+    box-sizing: border-box; 
+}
+h2{
+    color: #61063b;
+}
 .column h2 {
     margin-top: 0;
 }
