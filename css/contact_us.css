@@ -22,3 +22,14 @@ body {
 h1,h2{
     color: #61063b;
 }
+footer {
+    background-color: #0c266d;
+    padding: 20px;
+    text-align: center;
+}
+.col-md-12 {
+    color: #fff;
+    font-family: quicksand;
+    font-style: normal;
+    font-weight: 300;
+}
