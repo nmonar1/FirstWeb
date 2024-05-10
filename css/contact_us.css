@@ -1,25 +1,33 @@
-.navbar-nav {
+.topnav{
     background-color: #0c266d;
-    list-style: none;
-    padding: 10px;
+    overflow: hidden;
 }
 
-.nav-item {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.nav-link {
+.topnav a{
     color: #fff;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    color: rgb(238, 238, 238);
+    background-color: #61063b;
     text-decoration: none;
 }
+
 
 body {
     font-family: Arial, sans-serif;
     background-color: #ffe5ec; 
     color: #333; 
 }
-h1,h2{
+h1{
+    color: #61063b;
+    text-align: center; 
+}
+h2{
     color: #61063b;
 }
 footer {
