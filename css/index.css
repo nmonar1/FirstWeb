@@ -7,21 +7,30 @@ body{
     background-color: #ffc7ff;
 }
 
-.navbar-nav {
+
+.topnav{
     background-color: #0c266d;
-    list-style: none;
-    padding: 10px;
+    overflow: hidden;
 }
 
-.nav-item {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.nav-link {
+.topnav a{
     color: #fff;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    color: rgb(238, 238, 238);
+    background-color: #61063b;
     text-decoration: none;
 }
+
+.topnav-right{
+    float: right;
+}
+
 
 .image-row {
     display: flex; /*Using flexbox to create a row*/
@@ -99,4 +108,5 @@ footer {
     font-family: quicksand;
     font-style: normal;
     font-weight: 300;
+    
 }
