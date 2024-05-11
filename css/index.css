@@ -5,6 +5,7 @@
 
 body{
     background-color: #ffc7ff;
+    font-family: Arial, sans-serif; /* Adding a fallback font */
 }
 
 
@@ -35,6 +36,7 @@ body{
 .image-row {
     display: flex; /*Using flexbox to create a row*/
     justify-content: center;  /* Placing the images in the center*/
+    flex-wrap: wrap; /* Allowing the images to wrap to the next row */
 }
 
 .image-container {
@@ -43,21 +45,10 @@ body{
 }
 
 
-.image1 {
-    width: 350px; 
-    height: 350px; 
-    object-fit: cover; 
-}
-
-.image2 {
-    width: 350px; 
-    height: 350px; 
-    object-fit: cover; 
-}
-
-.image3 {
-    width: 350px; 
-    height: 350px; 
+.image1, .image2, .image3 {
+    width: 100%; 
+    max-width: 350px; 
+    height: auto; 
     object-fit: cover; 
 }
 
@@ -67,27 +58,25 @@ body{
 }
 .container {
     display: flex;
+    flex-wrap: wrap; 
 }
 
-.image {
+.image, .sidebar {
     flex: 1;
     padding: 20px;
-   
-
 }
 
 .image4{
-    max-width: 250px;
+    max-width: 250px; 
     height: auto;
-    
 }
 
 .sidebar {
-    width: 200px;
+    width: 200px; 
     background-color: #f4f4f4;
     padding: 20px;
-    
 }
+
 button{
     display: block;
     margin: 0 auto;
@@ -102,11 +91,22 @@ footer {
     background-color: #0c266d;
     padding: 20px;
     text-align: center;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
 }
-.col-md-12 {
-    color: #fff;
-    font-family: quicksand;
-    font-style: normal;
-    font-weight: 300;
+
+@media screen and (max-width: 768px) {
     
+    .topnav a {
+        padding: 10px; 
+    }
+    .image-container {
+        margin: 10px; 
+    }
+    .image, .sidebar {
+        padding: 10px; 
+    }
+    .sidebar {
+        width: 100%; 
+    }
 }
