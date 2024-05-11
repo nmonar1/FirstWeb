@@ -5,7 +5,7 @@
 
 body{
     background-color: #ffc7ff;
-    font-family: Arial, sans-serif; /* Adding a fallback font */
+    font-family: Arial, sans-serif; 
 }
 
 
@@ -96,7 +96,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
+  
     .topnav a {
         padding: 10px; 
     }
@@ -109,4 +109,44 @@ footer {
     .sidebar {
         width: 100%; 
     }
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #61063b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

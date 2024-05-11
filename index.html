@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="css/index.css"> <!--link to css file-->
-    
 </head>
 <body>
-    <div class="topnav">
+    <nav class="topnav">
         <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
+        <div class="dropdown">
+            <button class="dropbtn">Products 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="products.html">All Products</a>
+                <a href="#">Hair Care</a>
+                <a href="#">Makeup</a>
+                <a href="#">Skin Care</a>
+            </div>
+        </div>
         <a href="about.html">About</a>
         <a href="contact_us.html">Contact Us</a>
         <a href="payment.html">Payment</a>
@@ -19,7 +28,7 @@
             <a href="signin.html">Sign In</a>
             <a href="signup.html">Sign Up</a>
         </div>
-    </div>
+    </nav>
     
     <div class="container">
         <div class="row image-row">
@@ -37,6 +46,7 @@
             </div>
         </div>
     </div>
+    
     <div class="container">
         <div class="image-container">
             <img src="images/owner.jpeg" alt="" class="image4"> 
@@ -52,15 +62,13 @@
                 <button>Learn more</button>
                 </a>
             </div>
-           
-            </div>
-           
-</body>
-
+    </div>
+    
 <footer class="col-md-12"> Contact us: 07111222333 , Email us : information@etherealessencebeauty.com&nbsp;
     <div class="row">
 		<br>
       <div class="col-md-12">Copyright &copy; All rights reserved</div>
     </div>
-  </footer>
+</footer>
+</body>
 </html>
