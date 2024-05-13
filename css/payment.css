@@ -52,3 +52,25 @@ footer {
     font-style: normal;
     font-weight: 300;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.table-container {
+    
+    flex: 1;
+    margin: 0 10px;
+}
+table {
+    background-color: #ffe5ec;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+}
+h2{
+    color: #61063b;
+}
