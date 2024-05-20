@@ -53,4 +53,9 @@ body {
   input[type="submit"]:hover {
     background-color: #61063b;
   }
-  
+  .container a{
+    color: #0c266d;
+  }
+  .container a:hover{
+    color: #61063b;
+  }
