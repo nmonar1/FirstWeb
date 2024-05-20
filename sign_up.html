@@ -8,54 +8,35 @@
 </head>
 <body>
   <div class="container">
-    <h2>Register for a skin analysis</h2>
+    <h1>Create an account </h1>
     <form action="#" method="post">
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
       <div class="form-group">
         <label for="full-name">Full Name:</label>
         <input type="text" id="full-name" name="full-name" required>
       </div>
-      <div class="form-group">
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required>
+      <div class = "form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
       </div>
-      <div class="form-group">
-        <label for="allergies">Do you have any allergies?</label>
-        <input type="text" id="allergies" name="allergies">
+     <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
       </div>
-      <div class="form-group">
-        <label for="skin-type">Skin Type:</label>
-        <select id="skin-type" name="skin-type" required>
-          <option value=""></option>
-          <option value="Dry">Dry</option>
-          <option value="Oily">Oily</option>
-          <option value="Combination">Combination</option>
-          <option value="Sensitive">Sensitive</option>
-        </select>
+      <div class = "form-group">
+        <label for = "password">Password:</label>
+        <input type = "password" id="password" name = "password" required>
       </div>
-      <div class="form-group">
-        <label for="skin-concerns">Skin Concerns:</label>
-        <input type="text" id="skin-concerns" name="skin-concerns">
-      </div>
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="text" id="email" name="email">
-      </div>
-      <div class="form-group">
-        <label for="additional-info">Additional Information:</label>
-        <textarea id="additional-info" name="additional-info" rows="4"></textarea>
-      </div>
-      <div class="form-group">
-        <label for="book-analysis">Do you want to book a skin analysis?</label>
-        <input type="checkbox" id="book-analysis" name="book-analysis">
-      </div>
-      <div class="form-group" id="analysis-date-group" style="display: none;">
-        <label for="analysis-date">Preferred Date for Analysis:</label>
-        <input type="date" id="analysis-date" name="analysis-date">
-      </div>
-      <div class="form-group">
-        <input type="submit" value="Submit">
+     <div class="form-group">
+        <input type="submit" value="Sign up">
       </div>
     </form>
+    <br>
+    <br>
+    <p>Already have an account?</p>
   </div>
 
  

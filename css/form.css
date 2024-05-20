@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffc7ff;
   }
+  h1{
+    color: #61063b;
+    
+  }
   
   .container {
     background-color: #fff;
@@ -25,8 +29,7 @@ body {
   
   input[type="text"],
   input[type="number"],
-  select,
-  textarea {
+  select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
