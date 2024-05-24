@@ -118,3 +118,10 @@ body {
   .container a:hover{
     color: #61063b;
   }
+  footer {
+    background-color: #0c266d;
+    padding: 20px;
+    text-align: center;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
