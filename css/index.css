@@ -31,7 +31,13 @@ body{
 .topnav-right{
     float: right;
 }
-
+h2{
+    
+    text-align: center; 
+    font-family:cursive;
+    text-decoration: underline;
+    color: #61063b;
+}
 
 .image-row {
     display: flex; /*Using flexbox to create a row*/
@@ -152,14 +158,14 @@ footer {
 }
 
 #carouselExampleControls {
-    width: 50%; /* Make the carousel span the full width */
+    width: 50%; 
     margin: 0 auto; /* Center the carousel horizontally */
     padding: 20px;
 }
 
 .carousel-item img {
-    max-width: 100%; /* Ensure the images within the carousel span the full width */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 
