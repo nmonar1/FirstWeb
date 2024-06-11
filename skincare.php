@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skin care</title>
     <link rel="stylesheet" href="css/products.css">
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact_us.html">Contact Us</a>
-        <a href="payment.html">Payment</a>
-        
-       
-    </div>
+    <?php include_once("templates/nav.php");?>
    
 </head>
 <body>

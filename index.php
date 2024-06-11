@@ -16,6 +16,7 @@
     
     
   <?php include_once("templates/nav.php");?>
+  
     
     <h2><b>Welcome to Ethereal Essence Beauty!</b></h2>
 
