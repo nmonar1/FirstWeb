@@ -150,3 +150,17 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#carouselExampleControls {
+    width: 50%; /* Make the carousel span the full width */
+    margin: 0 auto; /* Center the carousel horizontally */
+    padding: 20px;
+}
+
+.carousel-item img {
+    max-width: 100%; /* Ensure the images within the carousel span the full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
