@@ -82,3 +82,48 @@ footer {
     font-weight: 300;
 }
 
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%; /* Each image container takes full width */
+        margin: 10px 0;
+    }
+
+    .image1, .image2, .image3 {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .image-container {
+        width: 100%; /* Each image container takes full width */
+        margin: 10px 0;
+    }
+
+    .image1, .image2, .image3 {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .caption {
+        font-size: 16px;
+    }
+
+    button {
+        width: 90%;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
