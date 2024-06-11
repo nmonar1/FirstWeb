@@ -15,28 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     
     
-    <nav class="topnav">
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">Products 
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="products.html">All Products</a>
-                <a href="haircare.html">Hair Care</a>
-                <a href="makeup.html">Makeup</a>
-                <a href="skincare.html">Skin Care</a>
-            </div>
-        </div>
-        <a href="about.html">About</a>
-        <a href="contact_us.html">Contact Us</a>
-        <a href="payment.html">Payment</a>
-        
-        <div class="topnav-right">
-            <a href="sign_in.html">Sign In</a>
-            <a href="sign_up.html">Sign Up</a>
-        </div>
-    </nav>
+  <?php include_once("templates/nav.php");?>
     
     <h2><b>Welcome to Ethereal Essence Beauty!</b></h2>
 

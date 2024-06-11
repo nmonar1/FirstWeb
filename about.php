@@ -6,16 +6,8 @@
     <link rel="stylesheet" href="css/about.css">
     
     <title>About</title>
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact_us.html">Contact Us</a>
-        <a href="payment.html">Payment</a>
-        
-       
-    </div>
-</head>
+  <?php include_once("templates/nav.php");?>
+  </head>
 <body>
     
     <div class="container">
