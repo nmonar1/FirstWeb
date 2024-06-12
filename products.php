@@ -24,7 +24,7 @@
         </div>
     </div>
 </div>
-<a href="haircare.html">
+<a href="haircare.php">
 <button >Show more</button>
 </a>
 <div class="container">
@@ -43,7 +43,7 @@
         </div>
     </div>
 </div>
-<a href="makeup.html">
+<a href="makeup.php">
     <button >Show more</button>
     </a>
 <div class="container">
@@ -62,7 +62,7 @@
         </div>
     </div>
 </div>
-<a href="skincare.html">
+<a href="skincare.php">
     <button >Show more</button>
     </a>
 </body>
