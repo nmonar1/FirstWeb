@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <a href="payment.html">
+    <a href="payment.php">
     <button >Check prices</button>
     </a>
     <div class="container">
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <a href="payment.html">
+    <a href="payment.php">
         <button >Check prices</button>
         </a>
     <div class="container">
@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-    <a href="payment.html">
+    <a href="payment.php">
         <button >Check prices</button>
         </a>
    
