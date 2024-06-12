@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="css/products.css">
-</head>
+<?php include_once("templates/header.php");?>
 <body>
 <?php include_once("templates/nav.php");?>
 <div class="container">
