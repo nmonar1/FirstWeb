@@ -55,7 +55,7 @@
                 Over the years, Ethereal Essence Beauty continued to gain momentum, earning a reputation for affordability and inclusivity. With Leilani's dedication...
             </p>
                 <br>
-                <a href="about.html">
+                <a href="about.php">
                 <button>Learn more</button>
                 </a>
             </div>
