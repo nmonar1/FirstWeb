@@ -1,6 +1,7 @@
-<?php include_once("templates/header.php");?>
+<?php include_once("templates/header.php");?> <!-- gives a warning  when there is an error and still displays the page and shows an
+ error in the header section-->
 <body>
-<?php include_once("templates/nav.php");?>
+<?php require_once("templates/nav.php");?> <!-- gives a fatal error when there is an error and does not display the whole page  -->
 <div class="container">
     <div class="row image-row">
         <div class="image-container">
