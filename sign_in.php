@@ -25,7 +25,7 @@
               <input type ="submit" value ="Log in">
               <br>
               <br>
-              <p>Don't have an account? <a href="sign_up.html">Create account</a></p>
+              <p>Don't have an account? <a href="sign_up.php">Create account</a></p>
         </div>
           <br>
           <br>

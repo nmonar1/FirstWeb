@@ -38,7 +38,7 @@
     </form>
     <br>
     <br>
-    <p>Already have an account? <a href="sign_in.html">Log in</a></p>
+    <p>Already have an account? <a href="sign_in.php">Log in</a></p>
   </div>
 <br>
 <?php include_once("templates/footer.php");?>
