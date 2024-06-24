@@ -37,5 +37,17 @@ CREATE TABLE IF NOT EXISTS orders (
     FOREIGN KEY (user_id) REFERENCES users(userId)
 );
 
+CREATE TABLE IF NOT EXISTS order_items (
+    order_item_id BIGINT(11) NOT NULL AUTO_INCREMENT,
+    order_id BIGINT(11) NOT NULL,
+    product_id BIGINT(11) NOT NULL,
+    quantity INT NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    dateCreated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    dateUpdated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(),
+    PRIMARY KEY (order_item_id),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
 
 
