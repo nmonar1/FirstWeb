@@ -25,6 +25,21 @@ CREATE TABLE IF NOT EXISTS contact_us (
     PRIMARY KEY (messageId)
 );
 
+CREATE TABLE IF NOT EXISTS skin_analysis (
+    analysisId BIGINT(11) NOT NULL AUTO_INCREMENT,
+    fullname VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    gender ENUM('female', 'male', 'non_binary', 'prefer_not_to_say') NOT NULL,
+    skin_type ENUM('normal', 'dry', 'oily', 'combination', 'sensitive') NOT NULL,
+    skin_concerns TEXT NOT NULL,
+    allergies TEXT,
+    current_products TEXT,
+    dateSubmitted DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    PRIMARY KEY (analysisId),
+    FOREIGN KEY (email) REFERENCES users(email) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
 
 
 CREATE TABLE IF NOT EXISTS products (
