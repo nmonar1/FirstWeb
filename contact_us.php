@@ -40,7 +40,7 @@
         </ul>
         
         <h2>Contact Form:</h2>
-        <form action="submit_contact.php" method="post">
+        <form action="includes/submit_contact.php" method="post">
             <label for="Fn">Fullname:</label><br>
             <input type="text" id="Fn" name="fullname" placeholder="enter name" required><br>
 
