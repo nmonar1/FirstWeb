@@ -16,6 +16,16 @@ CREATE TABLE IF NOT EXISTS users (
     UNIQUE KEY (username)
 );
 
+CREATE TABLE IF NOT EXISTS contact_us (
+    messageId BIGINT(11) NOT NULL AUTO_INCREMENT,
+    fullname VARCHAR(50) NOT NULL DEFAULT "",
+    email VARCHAR(50) NOT NULL DEFAULT "",
+    message TEXT NOT NULL,
+    dateSubmitted DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    PRIMARY KEY (messageId)
+);
+
+
 
 CREATE TABLE IF NOT EXISTS products (
     product_id BIGINT(11) NOT NULL AUTO_INCREMENT,
