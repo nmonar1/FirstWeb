@@ -61,7 +61,7 @@
         </ul>
     </div>
     <h2>Skin Analysis Form:</h2>
-        <form action="submit_skin_analysis.php" method="post">
+        <form action="includes/submit_analysis.php" method="post">
             <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
 
