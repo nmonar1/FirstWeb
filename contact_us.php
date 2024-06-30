@@ -40,22 +40,19 @@
         </ul>
         
         <h2>Contact Form:</h2>
-        <form action="">
+        <form action="submit_contact.php" method="post">
             <label for="Fn">Fullname:</label><br>
-            <input type ="text" id = "Fn"placeholder="enter name"><br>
-    
+            <input type="text" id="Fn" name="fullname" placeholder="enter name" required><br>
+
             <label for="email">Email:</label><br>
-            <input type ="text" id = "email"placeholder="email address"><br>
+            <input type="email" id="email" name="email" placeholder="email address" required><br>
 
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br>
 
             <input type="submit" value="Send">
-            
-    
         </form>
 
-        
         <h2>Operating Hours:</h2>
         <ul>
             <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
