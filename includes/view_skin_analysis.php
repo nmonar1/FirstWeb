@@ -17,6 +17,7 @@ if (isset($_GET["DelId"])) {
     }
 }
 ?>
+<link rel="stylesheet" href="../css/contact_us.css">
 <div class="header">
     <h1>Skin Analysis Feedback</h1>
 </div>
