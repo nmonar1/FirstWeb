@@ -17,7 +17,7 @@ if (isset($_GET["DelId"])) {
     }
 }
 ?>
- 
+ <link rel="stylesheet" href="../css/contact_us.css">
 <div class="header">
     <h1>Contact Form Messages</h1>
 </div>
