@@ -24,7 +24,7 @@ if (isset($_GET["DelId"])) {
         
 <div class="row">
     <div class="content">
-        <h1>Skin Analysis Feedback</h1>
+        
         <p>Below are the feedbacks submitted through the skin analysis form.</p>
         <table>
             <thead>
