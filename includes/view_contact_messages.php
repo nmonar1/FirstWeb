@@ -52,8 +52,12 @@ if ($sel_msg_res->num_rows > 0) {
                     <td><?php echo htmlspecialchars($sel_msg_row["email"]); ?></td>
                     <td><?php echo '<strong>' . substr(htmlspecialchars($sel_msg_row["message"]), 0, 25) . '...</strong>'; ?></td>
                     <td><?php echo date("d-M-Y H:i", strtotime($sel_msg_row["dateSubmitted"])); ?></td>
-                    <td>[ <a href="?DelId=<?php echo $sel_msg_row["messageId"]; ?>" onclick="return confirm('Are you sure you want to delete this message permanently from the database?')">Del</a> ]</td>
+                   
+                    <td>[ <a href="?DelId=<?php echo $sel_msg_row["messageId"]; ?>" onclick="return confirm('Are you sure you want to delete this message permanently from the database?')">Del</a> ] 
+                    [ <a href="update_contact.php?messageId=<?php echo $sel_msg_row["messageId"]; ?>">Edit</a> ]</td>
+
                 </tr>
+
 <?php
     }
 } else {
