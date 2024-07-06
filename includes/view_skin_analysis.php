@@ -62,7 +62,9 @@ if ($sel_analysis_res->num_rows > 0) {
                     <td><?php echo htmlspecialchars($sel_analysis_row["allergies"]); ?></td>
                     <td><?php echo '<strong>' . substr(htmlspecialchars($sel_analysis_row["current_products"]), 0, 25) . '...</strong>'; ?></td>
                     <td><?php echo date("d-M-Y H:i", strtotime($sel_analysis_row["dateSubmitted"])); ?></td>
-                    <td>[ <a href="?DelId=<?php echo $sel_analysis_row["analysisId"]; ?>" onclick="return confirm('Are you sure you want to delete this feedback permanently from the database?')">Del</a> ]</td>
+                    <td>[ <a href="?DelId=<?php echo $sel_analysis_row["analysisId"]; ?>" onclick="return confirm('Are you sure you want to delete this feedback permanently from the database?')">Del</a> ] 
+                            [ <a href="update_skin_analysis.php?analysisId=<?php echo $sel_analysis_row["analysisId"]; ?>">Edit</a> ]</td>
+
                 </tr>
 <?php
     }

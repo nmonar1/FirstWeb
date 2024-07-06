@@ -12,6 +12,9 @@ $skin_concerns = $_POST['skin_concerns'];
 $allergies = $_POST['allergies'];
 $current_products = $_POST['current_products'];
 
+// Generate a unique username based on email (you can modify this logic)
+$username = explode('@', $email)[0];
+
 // Check if user exists
 $sql_check_user = "SELECT email FROM users WHERE email = ?";
 $stmt_check_user = $conn->prepare($sql_check_user);
@@ -21,9 +24,9 @@ $stmt_check_user->store_result();
 
 if ($stmt_check_user->num_rows == 0) {
     // User does not exist, insert user
-    $sql_insert_user = "INSERT INTO users (fullname, email) VALUES (?, ?)";
+    $sql_insert_user = "INSERT INTO users (fullname, email, username) VALUES (?, ?, ?)";
     $stmt_insert_user = $conn->prepare($sql_insert_user);
-    $stmt_insert_user->bind_param("ss", $fullname, $email);
+    $stmt_insert_user->bind_param("sss", $fullname, $email, $username);
     $stmt_insert_user->execute();
     $stmt_insert_user->close();
 }
