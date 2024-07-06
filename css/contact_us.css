@@ -42,3 +42,34 @@ footer {
     font-style: normal;
     font-weight: 300;
 }
+
+/* General Table Styling */
+table {
+    width: 100%; /* Adjust as needed */
+    border-collapse: collapse; /* Remove extra spacing between cells */
+    margin-bottom: 20px; /* Optional for spacing below */
+    font-family: Arial, sans-serif; /* Customize the font */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Light gray border for clarity */
+    padding: 10px; /* Adjust cell padding */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #61063b; /* Header background color */
+    color: white; /* Header text color */
+  }
+  
+  /* Skin Analysis Table Specifics */
+  #skin-analysis-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background for easier reading */
+  }
+  
+  /* Contact Form Table Specifics */
+  #contact-form-table a {
+    color: #0c266d;  /* Make "Del" links blue */
+    text-decoration: none;
+  }
+  
