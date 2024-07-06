@@ -2,6 +2,8 @@
  error in the header section-->
 <body>
 <?php require_once("templates/nav.php");?> <!-- gives a fatal error when there is an error and does not display the whole page  -->
+<title>Products</title>
+<link rel="stylesheet" href="css/products.css">
 <div class="container">
     <div class="row image-row">
         <div class="image-container">

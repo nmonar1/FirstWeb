@@ -1,7 +1,8 @@
-@charset "utf-8";
+
 .topnav{
     background-color: #0c266d;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .topnav a{
@@ -11,6 +12,7 @@
     text-decoration: none;
     text-align: left;
     padding: 14px 16px;
+   
 }
 .topnav a:hover{
     color: rgb(238, 238, 238);

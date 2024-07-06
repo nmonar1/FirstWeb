@@ -1,5 +1,6 @@
 <?php include_once("templates/header.php");?>
 <?php include_once("templates/nav.php");?>
+<link rel="stylesheet" href="css/products.css">
 <body>
     <div class="container">
         <div class="row image-row">

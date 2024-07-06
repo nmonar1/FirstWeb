@@ -8,7 +8,9 @@
     <title>About</title>
   <?php include_once("templates/nav.php");?>
   </head>
-<body>
+
+
+  <body>
     
     <div class="container">
         <div class="column">

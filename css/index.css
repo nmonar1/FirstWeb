@@ -12,6 +12,7 @@ body{
 .topnav{
     background-color: #0c266d;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .topnav a{
@@ -78,7 +79,7 @@ h2{
     text-align: center; 
     font-family:cursive;
     text-decoration: underline;
-    color: red;
+    
 }
 
 .image-row {
