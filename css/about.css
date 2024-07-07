@@ -1,64 +1,75 @@
-
-.topnav{
+/* about.css */
+.topnav {
     background-color: #0c266d;
     overflow: hidden;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.topnav a{
+  }
+  
+  .topnav a {
     color: #fff;
     float: left;
     display: block;
     text-decoration: none;
     text-align: left;
     padding: 14px 16px;
-   
-}
-.topnav a:hover{
+  }
+  
+  .topnav a:hover {
     color: rgb(238, 238, 238);
     background-color: #61063b;
     text-decoration: none;
-}
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
-    background-color: #ffe5ec; 
-    color: #333; 
-}
-
-h1 {
-    color: #B7205D; 
-    font-family: 'Times New Roman', Times, serif; 
-}
-
-.container {
+    background-color: #ffe5ec;
+    color: #333;
+    font-size: large;
+  }
+  
+  h1 {
+    color: #B7205D;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .container {
     display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
     justify-content: space-between; /* Space between columns */
-}
-.image1{
-    width:80%;
-    height: auto;
-}
-
-.column {
-    width: 48%; 
+  }
+  
+  .column {
+    flex: 1 0 45%; /* Grow and shrink but start at 45% width */
     padding: 10px;
-    /*border: 2px solid #0c266d;*/
-    box-sizing: border-box; 
-}
-h2{
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .image1 {
+    width: 100%; /* Make images fill the container width */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;  /* Prevent extra space below images */
+    margin-bottom: 10px; /* Add space below the image */
+    
+  }
+  
+  h2 {
     color: #61063b;
-}
-.column h2 {
+  }
+  
+  .column h2 {
     margin-top: 0;
-}
-footer {
+  }
+  
+  footer {
     background-color: #0c266d;
     padding: 20px;
     text-align: center;
-}
-.col-md-12 {
+  }
+  
+  .col-md-12 {
     color: #fff;
     font-family: quicksand;
     font-style: normal;
     font-weight: 300;
-}
+  }
+  
