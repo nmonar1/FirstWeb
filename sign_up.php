@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign up</title>
-  <link rel="stylesheet" href="css/form.css">
-</head>
-<body>
+
+ <title>Sign up</title>
+<link rel="stylesheet" href="css/form.css">
+<?php include_once("templates/header.php");?>
 <?php include_once("templates/nav.php");?>
+<body>
+
 <br>
   <div class="container">
     <h1>Create an account </h1>
