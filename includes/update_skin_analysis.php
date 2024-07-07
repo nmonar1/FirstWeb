@@ -39,7 +39,7 @@ if (isset($_POST["update_analysis"])) {
 
 <div class="row">
     <div class="content">
-        <h1>Update Analysis</h1>
+        
         <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="contact_form">
             <label for="Fn">Fullname:</label><br>
             <input type="text" name="fullname" id="Fn" placeholder="Fullname" required value="<?php print $spot_analysis_row["fullname"]; ?>"><br><br>
