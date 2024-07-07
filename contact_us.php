@@ -7,34 +7,36 @@
     
 
    
-    <div class="container">
-        <h1>Get in touch with us !</h1>
-        
-        <h2>Address:</h2>
-        <ul>
-            <li>Ethereal Essence Beauty</li>
-            <li> Yaya Centre 1st floor</li>
-            <li>Arwings Kodhek Road</li>
-            
-        </ul>
-        
-        <h2>Phone:</h2>
-        <ul>
-            <li>Customer Service: 07111222333</li>
-        </ul>
-        
-        <h2>Email:</h2>
-        <ul>
-            <li>General Inquiries:information@etherealessencebeauty.com</a></li>
-            <li>Customer Support:support@etherealessencebeauty.com</a></li>
-        </ul>
-        
-        <h2>Social Media:</h2>
-        <ul>
-            <li>Facebook: <a href="https://www.facebook.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
-            <li>Instagram: <a href="https://www.instagram.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
-            <li>X: <a href="https://twitter.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
-        </ul>
+<div class="container">
+        <div class="address-info">
+            <h2>Address:</h2>
+            <ul>
+                <li>Ethereal Essence Beauty</li>
+                <li>Yaya Centre 1st floor</li>
+                <li>Arwings Kodhek Road</li>
+            </ul>
+
+            <h2>Email:</h2>
+            <ul>
+                <li>General Inquiries: <a href="mailto:information@etherealessencebeauty.com">information@etherealessencebeauty.com</a></li>
+                <li>Customer Support: <a href="mailto:support@etherealessencebeauty.com">support@etherealessencebeauty.com</a></li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <h2>Phone:</h2>
+            <ul>
+                <li>Customer Service: 07111222333</li>
+            </ul>
+
+            <h2>Social Media:</h2>
+            <ul>
+                <li>Facebook: <a href="https://www.facebook.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
+                <li>X: <a href="https://twitter.com/EtherealEssencesss">EtherealEssenceBeauty</a></li>
+            </ul>
+        </div>
+    </div>
+
         
         <h2>Contact Form:</h2>
         <form action="includes/submit_contact.php" method="post">
