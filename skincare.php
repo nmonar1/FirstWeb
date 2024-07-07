@@ -1,3 +1,4 @@
+<title>Skincare</title>
 <?php include_once("templates/header.php");?>
 <?php include_once("templates/nav.php");?>
 <link rel="stylesheet" href="css/products.css">
