@@ -1,22 +1,33 @@
 <?php
+
 require_once("db_connect.php");
+
+// Include the header template
 include_once("../templates/header.php");
+
+// Include the navigation template
 include_once("../templates/nav.php");
 
+// Check if the 'DelId' parameter is set in the URL
 if (isset($_GET["DelId"])) {
+    // Escape special characters in the 'DelId' parameter to prevent SQL injection
     $DelId = mysqli_real_escape_string($conn, $_GET["DelId"]);
     
-    // SQL to delete a record
+    // SQL query to delete a record from the 'contact_us' table where the messageId matches 'DelId'
     $del_msg = "DELETE FROM `contact_us` WHERE messageId='$DelId' LIMIT 1";
     
+    // Execute the SQL query and check if it was successful
     if ($conn->query($del_msg) === TRUE) {
+        // If the query was successful, redirect to 'view_contact_messages.php'
         header("Location: view_contact_messages.php");
         exit();
     } else {
+        // If there was an error, display an error message
         echo "Error deleting record: " . $conn->error;
     }
 }
 ?>
+
  <link rel="stylesheet" href="../css/contact_us.css">
 <div class="header">
     <h1>Contact Form Messages</h1>
